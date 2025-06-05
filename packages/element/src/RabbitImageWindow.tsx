@@ -699,7 +699,7 @@ export const RabbitImageWindow: React.FC<RabbitImageWindowProps> = ({
     return (
         <>
             {/* Rabbit GIF positioned relative to the window */}
-            <img
+            {/* <img
                 src="https://i.imgur.com/HORUPUZ.gif"
                 alt="Rabbit"
                 style={{
@@ -717,7 +717,7 @@ export const RabbitImageWindow: React.FC<RabbitImageWindowProps> = ({
                     // Hide the image if it fails to load
                     e.currentTarget.style.display = "none";
                 }}
-            />
+            /> */}
             
             <div
                 style={{
